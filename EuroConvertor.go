@@ -75,5 +75,11 @@ func main() {
 	var EuroWert Waehrungen
 	json.Unmarshal([]byte(body), &EuroWert)
 	fmt.Println("Aktueller Eurowert in USD: ", EuroWert.Rates.USD)
-	fmt.Println("Aktueller Eurowert in RON: ", EuroWert.Rates.RON)
+	fmt.Println("Aktueller Eurowert in Rumänische Lei: ", EuroWert.Rates.RON)
+	fmt.Println("Aktueller Eurowert in Zloty: ", EuroWert.Rates.PLN)
+	fmt.Println("Aktueller Eurowert in Norwegische Krone: ", EuroWert.Rates.NOK)
+	fmt.Println("Aktueller Eurowert in Schwedische Krone: ", EuroWert.Rates.SEK)
+	fmt.Println("Aktueller Eurowert in Dänische Krone: ", EuroWert.Rates.DKK)
+	fmt.Println("Aktueller Eurowert in Tschechische Krone: ", EuroWert.Rates.CZK)
+	fmt.Println("Aktueller Eurowert in Ungarische Forint: ", EuroWert.Rates.HUF)
 }
