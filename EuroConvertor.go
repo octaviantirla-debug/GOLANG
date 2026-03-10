@@ -82,4 +82,5 @@ func main() {
 	fmt.Println("Aktueller Eurowert in Dänische Krone: ", EuroWert.Rates.DKK)
 	fmt.Println("Aktueller Eurowert in Tschechische Krone: ", EuroWert.Rates.CZK)
 	fmt.Println("Aktueller Eurowert in Ungarische Forint: ", EuroWert.Rates.HUF)
+	fmt.Println("Aktueller Eurowert in Türkische Lira: ", EuroWert.Rates.TRY)
 }
